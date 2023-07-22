@@ -28,6 +28,7 @@ header {
   background: #fff;
   position: relative;
   gap: 20px;
+  border-radius: 10px;
 }
 .m_menu {
   width: 110px;
@@ -211,5 +212,13 @@ ul.language li.active {
   }
   .search {
     margin-left: 80px;
+  }
+  .search_bar.active {
+    width: 75%;
+    opacity: 1;
+    visibility: visible;
+    left: 0;
+    border-radius: 10px;
+    overflow: hidden;
   }
 }
